@@ -14,3 +14,17 @@ févr. 15 11:31:22 canneblancheintelligente-desktop python[6392]:     from pydub
 févr. 15 11:31:22 canneblancheintelligente-desktop python[6392]: ModuleNotFoundError: No module named
 févr. 15 11:31:24 canneblancheintelligente-desktop systemd[1]: aveugles.service: Main process exited,
 févr. 15 11:31:24 canneblancheintelligente-desktop systemd[1]: aveugles.service: Failed with result '
+
+
+
+févr. 15 13:07:12 canneblancheintelligente-desktop python[7151]: Traceback (most recent call last):
+févr. 15 13:07:12 canneblancheintelligente-desktop python[7151]:   File "/home/canneblancheintelligente/Documents/PFE_GRACE/projet/main.py", li
+févr. 15 13:07:12 canneblancheintelligente-desktop python[7151]:     my_canne.threading_camera_front()
+févr. 15 13:07:12 canneblancheintelligente-desktop python[7151]:   File "/home/canneblancheintelligente/Documents/PFE_GRACE/projet/main.py", li
+févr. 15 13:07:12 canneblancheintelligente-desktop python[7151]:     jetSonML.detect_image()
+févr. 15 13:07:12 canneblancheintelligente-desktop python[7151]:   File "/home/canneblancheintelligente/Documents/PFE_GRACE/projet/jetsonref.py
+févr. 15 13:07:12 canneblancheintelligente-desktop python[7151]:     display = videoOutput("display://0")
+févr. 15 13:07:12 canneblancheintelligente-desktop python[7151]: Exception: jetson.utils -- failed to create videoOutput device
+févr. 15 13:07:15 canneblancheintelligente-desktop systemd[1]: aveugles.service: Main process exited, code=exited, status=1/FAILURE
+févr. 15 13:07:15 canneblancheintelligente-desktop systemd[1]: aveugles.service: Failed with result 'exit-code'.
+
