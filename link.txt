@@ -1,4 +1,16 @@
-https://prod.liveshare.vsengsaas.visualstudio.com/join?189F08B34B725DF42BB0184EEC02F1228EBA
+https://prod.liveshare.vsengsaas.visualstudio.com/join?7A08F07681723A0065F869B920396AC0536B
 
 
-https://prod.liveshare.vsengsaas.visualstudio.com/join?57C12FCE4A722A772F23EA0EDAC456EBF242
+[Unit]
+Description=Execute this on boot
+
+[Service]
+Type=simple
+User=nobody
+EnvironmentFile=/home/canneblancheintelligente/Documents/PFE_GRACE/projet/env.conf
+ExecStart=/usr/bin/python /home/canneblancheintelligente/Documents/PFE_GRACE/projet/main.py
+
+[Install]
+WantedBy=multi-user.target
+
+PYTHONPATH=/home/canneblancheintelligente/Documents/PFE_GRACE/projet
