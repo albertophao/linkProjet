@@ -1,16 +1,15 @@
 https://prod.liveshare.vsengsaas.visualstudio.com/join?698E0F6309AEAF38395E72D47FE8E2CFC3CB
 
 
-[Unit]
-Description=Execute this on boot
 
-[Service]
-Type=simple
-User=nobody
-EnvironmentFile=/home/canneblancheintelligente/Documents/PFE_GRACE/projet/env.conf
-ExecStart=/usr/bin/python /home/canneblancheintelligente/Documents/PFE_GRACE/projet/main.py
 
-[Install]
-WantedBy=multi-user.target
+neblancheintelligente-desktop python[3686]: NvEGLImageFromFd: No EGLDisplay to create EGLImage
+févr. 25 01:24:11 canneblancheintelligente-desktop python[3686]: [gstreamer] gstBufferManager -- failed to map EGLImage from NVMM buffer
+févr. 25 01:24:11 canneblancheintelligente-desktop python[3686]: [gstreamer] gstCamera -- failed to handle incoming buffer
+févr. 25 01:24:11 canneblancheintelligente-desktop python[3686]: [gstreamer] gstBufferManager recieve caps:  video/x-raw(memory:NVMM), width=(
+févr. 25 01:24:11 canneblancheintelligente-desktop python[3686]: [gstreamer] gstBufferManager -- recieved first frame, codec=raw format=nv12 w
+févr. 25 01:24:11 canneblancheintelligente-desktop python[3686]: [gstreamer] gstBufferManager -- recieved NVMM memory
+févr. 25 01:24:11 canneblancheintelligente-desktop python[3686]: NvEGLImageFromFd: No EGLDisplay to create EGLImage
+févr. 25 01:24:11 canneblancheintelligente-desktop python[3686]: [gstreamer] gstBufferManager -- failed to map EGLImage from NVMM buffer
+févr. 25 01:24:11 canneblancheintelligente-desktop python[3686]: [gstreamer] gstCamera -- failed to handle incoming buffer
 
-PYTHONPATH=/home/canneblancheintelligente/Documents/PFE_GRACE/projet
