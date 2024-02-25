@@ -13,3 +13,17 @@ févr. 25 01:24:11 canneblancheintelligente-desktop python[3686]: NvEGLImageFrom
 févr. 25 01:24:11 canneblancheintelligente-desktop python[3686]: [gstreamer] gstBufferManager -- failed to map EGLImage from NVMM buffer
 févr. 25 01:24:11 canneblancheintelligente-desktop python[3686]: [gstreamer] gstCamera -- failed to handle incoming buffer
 
+----------------------------------------------------------------------
+févr. 26 00:28:00 canneblancheintelligente-desktop python[5858]: [gstreamer] gstBufferManager recieve caps:  video/x-raw(memory:NVMM), width=(
+févr. 26 00:28:00 canneblancheintelligente-desktop python[5858]: [gstreamer] gstBufferManager -- recieved first frame, codec=raw format=nv12 w
+févr. 26 00:28:00 canneblancheintelligente-desktop python[5858]: [gstreamer] gstBufferManager -- recieved NVMM memory
+févr. 26 00:28:00 canneblancheintelligente-desktop python[5858]: NvEGLImageFromFd: No EGLDisplay to create EGLImage
+févr. 26 00:28:00 canneblancheintelligente-desktop python[5858]: [gstreamer] gstBufferManager -- failed to map EGLImage from NVMM buffer
+févr. 26 00:28:00 canneblancheintelligente-desktop python[5858]: [gstreamer] gstCamera -- failed to handle incoming buffer
+févr. 26 00:28:00 canneblancheintelligente-desktop python[5858]: [gstreamer] gstBufferManager -- map buffer size was less than max size (1008 
+févr. 26 00:28:00 canneblancheintelligente-desktop python[5858]: [gstreamer] gstBufferManager recieve caps:  video/x-raw(memory:NVMM), width=(
+févr. 26 00:28:00 canneblancheintelligente-desktop python[5858]: [gstreamer] gstBufferManager -- recieved first frame, codec=raw format=nv12 w
+févr. 26 00:28:00 canneblancheintelligente-desktop python[5858]: [gstreamer] gstBufferManager -- recieved NVMM memory
+févr. 26 00:28:00 canneblancheintelligente-desktop python[5858]: NvEGLImageFromFd: No EGLDisplay to create EGLImage
+lines 1262-1301
+
