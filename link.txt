@@ -27,3 +27,21 @@ févr. 26 00:28:00 canneblancheintelligente-desktop python[5858]: [gstreamer] gs
 févr. 26 00:28:00 canneblancheintelligente-desktop python[5858]: NvEGLImageFromFd: No EGLDisplay to create EGLImage
 lines 1262-1301
 
+
+
+
+-----------------------------------------------------------------------
+
+
+journalctl -xe | grep aveugles
+févr. 26 01:16:59 canneblancheintelligente-desktop sudo[6884]: canneblancheintelligente : TTY=pts/0 ; PWD=/home/canneblancheintelligente/Documents/PFE_GRACE/projet ; USER=root ; COMMAND=/bin/systemctl stop aveugles.service
+-- Subject: L'unité (unit) aveugles.service a commencé à s'arrêter
+-- L'unité (unit) aveugles.service a commencé à s'arrêter.
+-- Subject: L'unité (unit) aveugles.service a terminé son arrêt
+-- L'unité (unit) aveugles.service a terminé son arrêt.
+
+
+
+
+
+
