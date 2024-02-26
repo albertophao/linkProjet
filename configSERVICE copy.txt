@@ -1,0 +1,5 @@
+#!/bin/sh
+python3 /path/to/your/python/script/my_python_script.py
+
+
+sudo chmod +x /usr/local/bin/start_python_script.sh

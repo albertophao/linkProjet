@@ -1,0 +1,49 @@
+#!/bin/sh
+/home/canneblancheintelligente/Documents/PFE_GRACE/projet/main.py
+
+sudo chmod +x /usr/local/bin/start_python_script.sh
+
+
+sudo nano /etc/systemd/system/start_python_script.service
+
+
+
+
+[Unit]
+After=network.target
+Description=Start Python Script
+
+[Service]
+ExecStart=/usr/local/bin/start_python_script.sh
+User=jetson
+
+[Install]
+WantedBy=multi-user.target
+
+
+
+
+sudo systemctl start start_python_script
+
+sudo journalctl -u start_python_script
+
+//------------------------------
+sudo systemctl daemon-reload
+
+
+sudo systemctl stop start_python_script
+
+udo systemctl status start_python_script
+
+
+journalctl -u aveugles
+
+
+/home/canneblancheintelligente/Documents/PFE_GRACE/projet
+
+
+
+
+
+
+
